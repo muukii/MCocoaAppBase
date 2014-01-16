@@ -7,12 +7,20 @@
 //
 
 #import "MAppDelegate.h"
-
 @implementation MAppDelegate
-
+{
+    MMainWindowController *mainWindow;
+}
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification
 {
     // Insert code here to initialize your application
+    mainWindow = [MMainWindowController instantiateWindowController];
+    [mainWindow showWindow:self];
+}
+
+- (BOOL)applicationShouldHandleReopen:(NSApplication *)sender hasVisibleWindows:(BOOL)flag {
+    [mainWindow.window makeKeyAndOrderFront:self];
+    return NO;
 }
 
 @end

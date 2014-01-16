@@ -18,6 +18,10 @@
 		4B772A901888260300C23AF2 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B772A6F1888260200C23AF2 /* Cocoa.framework */; };
 		4B772A981888260300C23AF2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4B772A961888260300C23AF2 /* InfoPlist.strings */; };
 		4B772A9A1888260300C23AF2 /* CocoaAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B772A991888260300C23AF2 /* CocoaAppTests.m */; };
+		4B772AA71888266000C23AF2 /* MMainWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B772AA51888266000C23AF2 /* MMainWindowController.m */; };
+		4B772AA81888266000C23AF2 /* MMainWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4B772AA61888266000C23AF2 /* MMainWindowController.xib */; };
+		4B772AAB18882CC200C23AF2 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B772AAA18882CC200C23AF2 /* AudioToolbox.framework */; };
+		4B772AB018882D3F00C23AF2 /* MYWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B772AAF18882D3F00C23AF2 /* MYWindowController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,25 +35,31 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		4B772A6C1888260200C23AF2 /* CocoaApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CocoaApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B772A6C1888260200C23AF2 /* MCocoaAppBase.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MCocoaAppBase.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B772A6F1888260200C23AF2 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		4B772A721888260200C23AF2 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		4B772A731888260200C23AF2 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		4B772A741888260200C23AF2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		4B772A771888260200C23AF2 /* CocoaApp-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CocoaApp-Info.plist"; sourceTree = "<group>"; };
+		4B772A771888260200C23AF2 /* MCocoaAppBase-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MCocoaAppBase-Info.plist"; sourceTree = "<group>"; };
 		4B772A791888260200C23AF2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		4B772A7B1888260200C23AF2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		4B772A7D1888260200C23AF2 /* CocoaApp-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CocoaApp-Prefix.pch"; sourceTree = "<group>"; };
+		4B772A7D1888260200C23AF2 /* MCocoaAppBase-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MCocoaAppBase-Prefix.pch"; sourceTree = "<group>"; };
 		4B772A7F1888260200C23AF2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
 		4B772A811888260200C23AF2 /* MAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MAppDelegate.h; sourceTree = "<group>"; };
 		4B772A821888260200C23AF2 /* MAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MAppDelegate.m; sourceTree = "<group>"; };
 		4B772A851888260200C23AF2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		4B772A871888260200C23AF2 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		4B772A8D1888260300C23AF2 /* CocoaAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CocoaAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B772A8D1888260300C23AF2 /* MCocoaAppBaseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MCocoaAppBaseTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B772A8E1888260300C23AF2 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		4B772A951888260300C23AF2 /* CocoaAppTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CocoaAppTests-Info.plist"; sourceTree = "<group>"; };
+		4B772A951888260300C23AF2 /* MCocoaAppBaseTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MCocoaAppBaseTests-Info.plist"; sourceTree = "<group>"; };
 		4B772A971888260300C23AF2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		4B772A991888260300C23AF2 /* CocoaAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CocoaAppTests.m; sourceTree = "<group>"; };
+		4B772AA41888266000C23AF2 /* MMainWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMainWindowController.h; sourceTree = "<group>"; };
+		4B772AA51888266000C23AF2 /* MMainWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMainWindowController.m; sourceTree = "<group>"; };
+		4B772AA61888266000C23AF2 /* MMainWindowController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MMainWindowController.xib; sourceTree = "<group>"; };
+		4B772AAA18882CC200C23AF2 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		4B772AAE18882D3F00C23AF2 /* MYWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MYWindowController.h; sourceTree = "<group>"; };
+		4B772AAF18882D3F00C23AF2 /* MYWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MYWindowController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +67,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4B772AAB18882CC200C23AF2 /* AudioToolbox.framework in Frameworks */,
 				4B772A701888260200C23AF2 /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -86,8 +97,8 @@
 		4B772A6D1888260200C23AF2 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				4B772A6C1888260200C23AF2 /* CocoaApp.app */,
-				4B772A8D1888260300C23AF2 /* CocoaAppTests.xctest */,
+				4B772A6C1888260200C23AF2 /* MCocoaAppBase.app */,
+				4B772A8D1888260300C23AF2 /* MCocoaAppBaseTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -95,6 +106,7 @@
 		4B772A6E1888260200C23AF2 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				4B772AAA18882CC200C23AF2 /* AudioToolbox.framework */,
 				4B772A6F1888260200C23AF2 /* Cocoa.framework */,
 				4B772A8E1888260300C23AF2 /* XCTest.framework */,
 				4B772A711888260200C23AF2 /* Other Frameworks */,
@@ -115,6 +127,9 @@
 		4B772A751888260200C23AF2 /* CocoaApp */ = {
 			isa = PBXGroup;
 			children = (
+				4B772AAD18882CF100C23AF2 /* Bases */,
+				4B772AAC18882CE100C23AF2 /* Models */,
+				4B772AA31888263F00C23AF2 /* Controllers */,
 				4B772A811888260200C23AF2 /* MAppDelegate.h */,
 				4B772A821888260200C23AF2 /* MAppDelegate.m */,
 				4B772A841888260200C23AF2 /* MainMenu.xib */,
@@ -127,10 +142,10 @@
 		4B772A761888260200C23AF2 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				4B772A771888260200C23AF2 /* CocoaApp-Info.plist */,
+				4B772A771888260200C23AF2 /* MCocoaAppBase-Info.plist */,
 				4B772A781888260200C23AF2 /* InfoPlist.strings */,
 				4B772A7B1888260200C23AF2 /* main.m */,
-				4B772A7D1888260200C23AF2 /* CocoaApp-Prefix.pch */,
+				4B772A7D1888260200C23AF2 /* MCocoaAppBase-Prefix.pch */,
 				4B772A7E1888260200C23AF2 /* Credits.rtf */,
 			);
 			name = "Supporting Files";
@@ -148,18 +163,44 @@
 		4B772A941888260300C23AF2 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				4B772A951888260300C23AF2 /* CocoaAppTests-Info.plist */,
+				4B772A951888260300C23AF2 /* MCocoaAppBaseTests-Info.plist */,
 				4B772A961888260300C23AF2 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		4B772AA31888263F00C23AF2 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				4B772AA41888266000C23AF2 /* MMainWindowController.h */,
+				4B772AA51888266000C23AF2 /* MMainWindowController.m */,
+				4B772AA61888266000C23AF2 /* MMainWindowController.xib */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		4B772AAC18882CE100C23AF2 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		4B772AAD18882CF100C23AF2 /* Bases */ = {
+			isa = PBXGroup;
+			children = (
+				4B772AAE18882D3F00C23AF2 /* MYWindowController.h */,
+				4B772AAF18882D3F00C23AF2 /* MYWindowController.m */,
+			);
+			path = Bases;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		4B772A6B1888260200C23AF2 /* CocoaApp */ = {
+		4B772A6B1888260200C23AF2 /* MCocoaAppBase */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4B772A9D1888260300C23AF2 /* Build configuration list for PBXNativeTarget "CocoaApp" */;
+			buildConfigurationList = 4B772A9D1888260300C23AF2 /* Build configuration list for PBXNativeTarget "MCocoaAppBase" */;
 			buildPhases = (
 				4B772A681888260200C23AF2 /* Sources */,
 				4B772A691888260200C23AF2 /* Frameworks */,
@@ -169,14 +210,14 @@
 			);
 			dependencies = (
 			);
-			name = CocoaApp;
+			name = MCocoaAppBase;
 			productName = CocoaApp;
-			productReference = 4B772A6C1888260200C23AF2 /* CocoaApp.app */;
+			productReference = 4B772A6C1888260200C23AF2 /* MCocoaAppBase.app */;
 			productType = "com.apple.product-type.application";
 		};
-		4B772A8C1888260300C23AF2 /* CocoaAppTests */ = {
+		4B772A8C1888260300C23AF2 /* MCocoaAppBaseTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4B772AA01888260300C23AF2 /* Build configuration list for PBXNativeTarget "CocoaAppTests" */;
+			buildConfigurationList = 4B772AA01888260300C23AF2 /* Build configuration list for PBXNativeTarget "MCocoaAppBaseTests" */;
 			buildPhases = (
 				4B772A891888260300C23AF2 /* Sources */,
 				4B772A8A1888260300C23AF2 /* Frameworks */,
@@ -187,9 +228,9 @@
 			dependencies = (
 				4B772A921888260300C23AF2 /* PBXTargetDependency */,
 			);
-			name = CocoaAppTests;
+			name = MCocoaAppBaseTests;
 			productName = CocoaAppTests;
-			productReference = 4B772A8D1888260300C23AF2 /* CocoaAppTests.xctest */;
+			productReference = 4B772A8D1888260300C23AF2 /* MCocoaAppBaseTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -207,7 +248,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 4B772A671888260200C23AF2 /* Build configuration list for PBXProject "CocoaApp" */;
+			buildConfigurationList = 4B772A671888260200C23AF2 /* Build configuration list for PBXProject "MCocoaAppBase" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -220,8 +261,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				4B772A6B1888260200C23AF2 /* CocoaApp */,
-				4B772A8C1888260300C23AF2 /* CocoaAppTests */,
+				4B772A6B1888260200C23AF2 /* MCocoaAppBase */,
+				4B772A8C1888260300C23AF2 /* MCocoaAppBaseTests */,
 			);
 		};
 /* End PBXProject section */
@@ -233,6 +274,7 @@
 			files = (
 				4B772A7A1888260200C23AF2 /* InfoPlist.strings in Resources */,
 				4B772A881888260200C23AF2 /* Images.xcassets in Resources */,
+				4B772AA81888266000C23AF2 /* MMainWindowController.xib in Resources */,
 				4B772A801888260200C23AF2 /* Credits.rtf in Resources */,
 				4B772A861888260200C23AF2 /* MainMenu.xib in Resources */,
 			);
@@ -253,6 +295,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4B772AA71888266000C23AF2 /* MMainWindowController.m in Sources */,
+				4B772AB018882D3F00C23AF2 /* MYWindowController.m in Sources */,
 				4B772A831888260200C23AF2 /* MAppDelegate.m in Sources */,
 				4B772A7C1888260200C23AF2 /* main.m in Sources */,
 			);
@@ -271,7 +315,7 @@
 /* Begin PBXTargetDependency section */
 		4B772A921888260300C23AF2 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 4B772A6B1888260200C23AF2 /* CocoaApp */;
+			target = 4B772A6B1888260200C23AF2 /* MCocoaAppBase */;
 			targetProxy = 4B772A911888260300C23AF2 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -386,9 +430,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "CocoaApp/CocoaApp-Prefix.pch";
-				INFOPLIST_FILE = "CocoaApp/CocoaApp-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "CocoaApp/MCocoaAppBase-Prefix.pch";
+				INFOPLIST_FILE = "CocoaApp/MCocoaAppBase-Info.plist";
+				PRODUCT_NAME = MCocoaAppBase;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -399,9 +443,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "CocoaApp/CocoaApp-Prefix.pch";
-				INFOPLIST_FILE = "CocoaApp/CocoaApp-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "CocoaApp/MCocoaAppBase-Prefix.pch";
+				INFOPLIST_FILE = "CocoaApp/MCocoaAppBase-Info.plist";
+				PRODUCT_NAME = MCocoaAppBase;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -421,8 +465,8 @@
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = "CocoaAppTests/CocoaAppTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				INFOPLIST_FILE = "CocoaAppTests/MCocoaAppBaseTests-Info.plist";
+				PRODUCT_NAME = MCocoaAppBaseTests;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -439,8 +483,8 @@
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CocoaApp/CocoaApp-Prefix.pch";
-				INFOPLIST_FILE = "CocoaAppTests/CocoaAppTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				INFOPLIST_FILE = "CocoaAppTests/MCocoaAppBaseTests-Info.plist";
+				PRODUCT_NAME = MCocoaAppBaseTests;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -449,7 +493,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		4B772A671888260200C23AF2 /* Build configuration list for PBXProject "CocoaApp" */ = {
+		4B772A671888260200C23AF2 /* Build configuration list for PBXProject "MCocoaAppBase" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4B772A9B1888260300C23AF2 /* Debug */,
@@ -458,21 +502,23 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4B772A9D1888260300C23AF2 /* Build configuration list for PBXNativeTarget "CocoaApp" */ = {
+		4B772A9D1888260300C23AF2 /* Build configuration list for PBXNativeTarget "MCocoaAppBase" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4B772A9E1888260300C23AF2 /* Debug */,
 				4B772A9F1888260300C23AF2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		4B772AA01888260300C23AF2 /* Build configuration list for PBXNativeTarget "CocoaAppTests" */ = {
+		4B772AA01888260300C23AF2 /* Build configuration list for PBXNativeTarget "MCocoaAppBaseTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4B772AA11888260300C23AF2 /* Debug */,
 				4B772AA21888260300C23AF2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

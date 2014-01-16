@@ -16,8 +16,8 @@
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "4B772A6B1888260200C23AF2"
                BuildableName = "CocoaApp.app"
-               BlueprintName = "CocoaApp"
-               ReferencedContainer = "container:CocoaApp.xcodeproj">
+               BlueprintName = "MCocoaAppBase"
+               ReferencedContainer = "container:MCocoaAppBase.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -34,8 +34,8 @@
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "4B772A8C1888260300C23AF2"
                BuildableName = "CocoaAppTests.xctest"
-               BlueprintName = "CocoaAppTests"
-               ReferencedContainer = "container:CocoaApp.xcodeproj">
+               BlueprintName = "MCocoaAppBaseTests"
+               ReferencedContainer = "container:MCocoaAppBase.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -44,8 +44,8 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "4B772A6B1888260200C23AF2"
             BuildableName = "CocoaApp.app"
-            BlueprintName = "CocoaApp"
-            ReferencedContainer = "container:CocoaApp.xcodeproj">
+            BlueprintName = "MCocoaAppBase"
+            ReferencedContainer = "container:MCocoaAppBase.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -63,8 +63,8 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "4B772A6B1888260200C23AF2"
             BuildableName = "CocoaApp.app"
-            BlueprintName = "CocoaApp"
-            ReferencedContainer = "container:CocoaApp.xcodeproj">
+            BlueprintName = "MCocoaAppBase"
+            ReferencedContainer = "container:MCocoaAppBase.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -81,8 +81,8 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "4B772A6B1888260200C23AF2"
             BuildableName = "CocoaApp.app"
-            BlueprintName = "CocoaApp"
-            ReferencedContainer = "container:CocoaApp.xcodeproj">
+            BlueprintName = "MCocoaAppBase"
+            ReferencedContainer = "container:MCocoaAppBase.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
